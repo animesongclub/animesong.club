@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Jekyll: Build",
+      "type": "shell",
+      "command": "cd ${workspaceFolder}/docs && bundle exec jekyll build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Jekyll: Serve",
+      "type": "shell",
+      "command": "cd ${workspaceFolder}/docs && bundle exec jekyll serve",
+      "group": "test",
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Jekyll: Build and Open",
+      "type": "shell",
+      "command": "cd ${workspaceFolder}/docs && bundle exec jekyll serve --detach && open http://localhost:4000",
+      "group": "test",
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Jekyll: Clean",
+      "type": "shell",
+      "command": "cd ${workspaceFolder}/docs && bundle exec jekyll clean",
+      "group": "none",
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

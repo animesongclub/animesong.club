@@ -1,0 +1,11 @@
+title: AnimeSong.Club
+description: アニメソングDJが聞ける店舗情報のリスティングページ
+baseurl: ""
+url: "https://animesong.club"
+
+# ビルド設定
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.html": "liquid-html",
+    "*.md": "liquid-markdown"
+  },
+  "editor.formatOnSave": true,
+  "liquid.format.enable": true
+}
