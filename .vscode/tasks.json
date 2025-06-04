@@ -15,6 +15,16 @@
       "problemMatcher": []
     },
     {
+      "label": "Jekyll: Build Production",
+      "type": "shell",
+      "command": "cd ${workspaceFolder}/docs && JEKYLL_ENV=production bundle exec jekyll build",
+      "group": "build",
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "Jekyll: Serve",
       "type": "shell",
       "command": "cd ${workspaceFolder}/docs && bundle exec jekyll serve",

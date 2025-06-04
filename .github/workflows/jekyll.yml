@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: cd docs && bundle install
       - name: Build site
-        run: cd docs && bundle exec jekyll build
+        run: cd docs && JEKYLL_ENV=production bundle exec jekyll build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:

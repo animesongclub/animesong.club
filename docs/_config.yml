@@ -2,6 +2,8 @@ title: AnimeSong.Club
 description: アニメソングDJが聞ける店舗情報のリスティングページ
 baseurl: ""
 url: "https://animesong.club"
+domain: animesong.club
+enforce_https: true
 
 # ビルド設定
 markdown: kramdown
