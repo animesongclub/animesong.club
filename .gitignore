@@ -1,0 +1,39 @@
+# Jekyll関連の無視すべきファイル
+docs/_site/
+docs/.sass-cache/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+docs/vendor/
+# ビルド時に生成されるファイルもすべてのフォルダで無視
+**/_site/
+**/.sass-cache/
+**/.jekyll-cache/
+**/.jekyll-metadata
+
+# Ruby関連
+docs/.bundle/
+docs/Gemfile.lock
+
+# OS固有のファイル（すべての階層で無視）
+**/.DS_Store
+**/.DS_Store?
+**/._*
+**/.Spotlight-V100
+**/.Trashes
+**/ehthumbs.db
+**/Thumbs.db
+
+# エディタ固有のファイル（すべての階層で無視）
+**/*.swp
+**/*.swo
+**/*~
+**/*.log
+**/*.bak
+**/*.tmp
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+**/.idea/
+**/*.sublime-project
+**/*.sublime-workspace
