@@ -1,0 +1,62 @@
+# アニメソングDJが聞けるベニュー（店舗）情報のリスト
+# 地域ごとにグループ化
+
+tokyo:
+
+  - id: mogra
+    name: MOGRA
+    description: 渋谷で人気のアニソンクラブ。アニクラの代表格として知られる。
+    address: 東京都渋谷区宇田川町10-5 野村ビル B1F
+    website: http://www.club-mogra.jp/
+    hours: イベント開催時のみ営業
+    cover: イベントにより異なる（2000円〜3000円）
+    events:
+      - name: アニソンMatrix
+        organizer: DJさーや（SAAYA）
+        description: MOGRA設立初期から続く伝統的なアニソンイベント。DJさーやさんによって主催されている。
+        day: イベントスケジュールによる
+        time: イベントスケジュールによる
+      - name: A-Pop Night
+        day: 毎月第2土曜日
+        time: 23:00-05:00
+        description: アニソン・ボカロ・ゲーム曲中心のDJイベント
+    coordinates:
+      lat: 35.6613
+      lng: 139.6955
+    image: mogra.jpg
+
+osaka:
+  - id: osaka-anisong-club
+    name: 大阪アニソンクラブ
+    description: 大阪ミナミで人気のアニソン専門クラブ。
+    address: 大阪府大阪市中央区難波3-5-8 センタービル B2F
+    website: https://example.com/osaka-anisong/
+    hours: 金-日 21:00-05:00
+    cover: 2500円（1ドリンク付き）
+    events:
+      - name: アニメナイト大阪
+        day: 毎週土曜日
+        time: 22:00-04:30
+        description: 関西のトップアニソンDJたちによるパーティー
+    coordinates:
+      lat: 34.6687
+      lng: 135.5038
+    image: osaka-anisong-club.jpg
+
+fukuoka:
+  - id: tenjin-anisong
+    name: 天神アニソン倶楽部
+    description: 福岡・天神エリアのアニソン専門DJ Bar。初心者から上級者まで楽しめる。
+    address: 福岡県福岡市中央区天神2-8-12 天神レジャービル 3F
+    website: https://example.com/tenjin-anisong/
+    hours: 火-日 18:00-24:00
+    cover: 1500円（1ドリンク付き）
+    events:
+      - name: 九州アニメパーティー
+        day: 毎月第3金曜日
+        time: 20:00-24:00
+        description: 九州のアニソンDJが集結するイベント
+    coordinates:
+      lat: 33.5898
+      lng: 130.3982
+    image: tenjin-anisong.jpg
